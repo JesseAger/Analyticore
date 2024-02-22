@@ -11,18 +11,18 @@ const header = () => {
     <div dpr__header section__padding>
     <div className='dpr__header-content'>
       <h1 className='gradient__text'>
-  Welcome to the analytics alchemy,
+  Welcome to the analytics alchemy, <br/>
   where data speaks volumes
       </h1>
       <p>
         It takes us and only us to make you realize
-        that the most powerful tool in the digital world is data;
+        that the most powerful tool in the digital world is data; <br />
         your data plus our expertise equals limitless possibilites
-        and unprecedented generation of information and intelligence.
+        and unprecedented generation of <br />information and intelligence.
         An investment you will never regret! 
       </p>
       <div className='dpr__header-content__input'>
-        <input type="email" placeholder='Your email address' />
+        <input type="email" placeholder='Your email address' required />
         <button type='button'>Get Started</button>
       </div>
       <div className='dpr__header-content_people'>

@@ -15,10 +15,10 @@
 
 .dpr__header-content h1 {
    font-family: var(--font-gamily);
-   font-weight: 800; 
-   font-size: 62px;
-   line-height: 75px;
-
+   font-weight: 600; 
+   font-size: 42px;
+   line-height: 55px;
+   color: var(--color-text);
    letter-spacing: -0.04rem;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .dpr__header-content__input {
-    width: 100%;
+    width: 50%;
     margin: 2rem 0 1rem;
     display: flex;
 }
@@ -91,6 +91,7 @@ color: #fff;
 
     color: #ffffff;
     text-align: center;
+ 
 }
 
 .dpr__header-content__people p {
@@ -104,6 +105,7 @@ color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 
 .dpr__header-image img {
