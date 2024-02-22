@@ -1,18 +1,18 @@
 import React from 'react';
 import './header.css';
-import people from '../../assets/people.png'
-import analytic from '../../assets/analytic.png'
+// import people from '../../assets/people.png'
+// import headerImg from '../../assets/headerImg.png'
 
 
 
 
 const header = () => {
   return (
-    <div dpr__header section__padding>
-    <div className='dpr__header-content'>
+ <div dpr__header section__padding>
+  <div className='dpr__header-content'>
       <h1 className='gradient__text'>
-  Welcome to the analytics alchemy, <br/>
-  where data speaks volumes
+        Welcome to the analytics alchemy, <br/>
+        where data speaks volumes
       </h1>
       <p>
         It takes us and only us to make you realize
@@ -26,12 +26,12 @@ const header = () => {
         <button type='button'>Get Started</button>
       </div>
       <div className='dpr__header-content_people'>
-        <img src={people} alt="people" />
-        <p>1600 people requested 24hr access to our resources</p>
+        {/* <img src={people} alt="people" /> */}
+        {/* <p>Over 1000 people requested 24hr access to our resources</p> */}
       </div>
-      <div className='dpr__header-image'>
-    <img src={analytic} alt="analytic"/>
-      </div>
+    {/* <div className='dpr__header-image'>
+      <img src={headerImg} alt="blog"/>
+    </div> */}
     </div>
 </div>
   )
