@@ -12,9 +12,15 @@
     margin-right: 5rem;
 
 }
+.gradient__text{
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
 .dpr__header-content h1 {
-   font-family: var(--font-gamily);
+   font-family: Manrope;
    font-weight: 600; 
    font-size: 42px;
    line-height: 55px;
@@ -24,7 +30,7 @@
 }
 
 .dpr__header-content p{
-    font-family: var(--font-gamily);
+    font-family: Manrope;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -41,6 +47,7 @@
     margin-left: 3rem;
     border:0.5px solid darkblue;
     border-radius: 5px;
+    font-family: Manrope;
 }
 
 .dpr__header-content__input input {
@@ -49,7 +56,7 @@ width: 100%;
 min-height: 50px;
   background: var(--color-footer);
   border-radius: 5px px 0px 5px;
-  font-family: var(--font-gamily);
+  font-family: Manrope;
 border: 2px solid var(--color-footer);
 padding: 0 1rem;
 outline: none;

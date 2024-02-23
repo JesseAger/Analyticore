@@ -1,9 +1,9 @@
-import google from '../../assets/google.png';
+import data from '../../assets/data.png';
 import slack from '../../assets/slack.png';
 import dropbox from '../../assets/dropbox.png';
 
 export{
-    google,
+    data,
     slack,
     dropbox
 }
