@@ -32,6 +32,10 @@
 
 .dpr__about-feature {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    font-family: var(--font-family);
 }
 .dpr__about-feature .dpr__feature-container__feature{
     margin: 0;
@@ -70,6 +74,9 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 2rem;
+   padding-left: 2rem;
+   font-size: 20px;;
+   color: var(--color-text);
 }
 
 .dpr__about-container .dpr__features-container__feature {
@@ -120,4 +127,8 @@
         margin: 1rem 0;
         min-width: 100%;
     }
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
